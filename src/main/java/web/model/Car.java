@@ -1,4 +1,4 @@
-package model;
+package web.model;
 
 public class Car {
     private String brand;
@@ -39,7 +39,7 @@ public class Car {
     public String toString() {
         return "Car{" +
                 "brand='" + brand + '\'' +
-                ", model='" + color + '\'' +
+                ", web.model='" + color + '\'' +
                 ", count=" + count +
                 '}';
     }
